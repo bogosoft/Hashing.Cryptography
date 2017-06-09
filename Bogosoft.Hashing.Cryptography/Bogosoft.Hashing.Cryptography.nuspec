@@ -8,6 +8,7 @@
 			<frameworkAssembly assemblyName="System.Security" />
 		</frameworkAssemblies>
 		<id>$id$</id>
+		<licenseUrl>https://github.com/bogosoft/Hashing.Cryptography/blob/master/LICENSE</licenseUrl>
 		<owners>$author$</owners>
 		<projectUrl>https://github.com/bogosoft/Hashing.Cryptography</projectUrl>
 		<tags>hash hashing cryptography</tags>
