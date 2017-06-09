@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<frameworkAssemblies>
+		<frameworkAssembly assemblyName="System.Security" />
+	</frameworkAssemblies>
+	<metadata>
+		<authors>$author$</authors>
+		<copyright>Copyright © 2017</copyright>
+		<description>$description$</description>
+		<id>$id$</id>
+		<owners>$author$</owners>
+		<projectUrl>https://github.com/bogosoft/Hashing.Cryptography</projectUrl>
+		<tags>hash hashing cryptography</tags>
+		<title>$title$</title>
+		<version>$version$</version>
+	</metadata>
+</package>
