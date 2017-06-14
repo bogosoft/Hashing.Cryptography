@@ -64,17 +64,17 @@ namespace Bogosoft.Hashing.Cryptography
         }
 
         /// <summary>
-        /// Generate a fixed-length sequence of bytes against a given <see cref="IHashable"/> object.
+        /// Generate a fixed-length sequence of bytes against a variable-length sequence of bytes.
         /// </summary>
-        /// <param name="object">An object to hash.</param>
+        /// <param name="bytes">A variable-length sequence of bytes.</param>
         /// <returns>
         /// A fixed-length sequence of bytes.
         /// </returns>
-        public byte[] Compute(IHashable @object)
+        public byte[] Compute(byte[] bytes)
         {
             using (var algorithm = Activator.CreateInstance<T>())
             {
-                return algorithm.ComputeHash(@object.GetHashBytes());
+                return algorithm.ComputeHash(bytes);
             }
         }
     }
